@@ -66,7 +66,6 @@ public:
 class Investor : public IInvestor {
 private:
   string name_;
-  //Stock* stock_;
 
 public:
   Investor(string name) 
