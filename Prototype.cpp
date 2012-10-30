@@ -26,7 +26,7 @@ public:
 
   virtual ColorPrototype* Clone() {
     cout << "Cloning color RGB: " << red_ << ", " << green_ << ", " << blue_ << endl;
-    ColorPrototype* clone = new Color(red_, green_, blue_);
+    ColorPrototype* clone(this);
     return clone;
   }
 };
